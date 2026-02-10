@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+<title>Student details form</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+</head>
+<body>
+<form action="register" method="post">
+Username:<input type="text" name="uname"/><br>
+Password:<input type="password" name="pass"/><br>
+Name:<input type="text" name="name"/><br>
+Email:<input type="email" name="mail"/><br>
+ Mobile Number:<input type="tel" name="mobileno"/><br>
+ Date Of Birth:<input type="date" name="dob"/><br>
+Gender:<input type="radio" name="gender" value="Male"/>Male
+<input type="radio" name="gender" value="Female"/>Female<br>
+highest qualification:
+<select name="edu">
+<option value="Mtech">Mtech</option>
+<option value="Btech">Btech</option>
+<option value="Intermediate">Intermediate</option>
+<option value="SSC">SSC</option>
+</select><br>
+course:
+<select name="branch">
+<option value="CSE">CSE</option> 
+<option value="CSE">IT</option>
+<option value="CSE">ECE</option> 
+<option value="CSE">EEE</option>
+</select><br>
+year of studying:
+<select name="year">
+<option value="1">1</option> 
+<option value="2">2</option>
+<option value="3">3</option> 
+<option value="4">4</option>
+</select><br>    
+Hobbies:
+<input type="text" name="names"/><br>
+<br>
+Address:<textarea name="address" cols="20" rows="10"></textarea><br>
+<input type="submit" name="button" value="submit"/>
+</form>
+</body>
+</html>
